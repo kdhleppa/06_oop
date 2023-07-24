@@ -7,6 +7,8 @@ public class Book {
 	private double discountRate;
 	private String author;
 	
+	public double dc = price - (price * discountRate);
+	
 	public Book() {
 		
 		
@@ -44,7 +46,7 @@ public class Book {
 		this.author = author;
 	}
 	
-	
+		
 	
 	
 

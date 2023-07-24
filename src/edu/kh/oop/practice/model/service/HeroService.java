@@ -47,9 +47,9 @@ public class HeroService {
 		System.out.println();
 		System.out.println("=================================");
 		System.out.println();
-		a1.setAtk(h2.getJob());
-		a1.attack();
-		h1.setHp(17850);
+		
+		h2.attack();
+		h1.setHp(h1.getHp()-150);
 		System.out.println("직업 : " + h1.getJob());
 		System.out.println("hp : " + h1.getHp());
 		System.out.println("mp : " + h1.getMp());
@@ -63,8 +63,7 @@ public class HeroService {
 		System.out.println("성별 : " + h3.getGender());
 		System.out.println("현재 레벨은 " + h3.getLevel()+" 입니다.");
 		System.out.println();
-		j1.setJumper(h3.getJob());
-		j1.jump();
+		h3.jump();
 		
 		
 	}

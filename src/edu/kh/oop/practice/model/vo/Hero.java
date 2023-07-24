@@ -55,7 +55,7 @@ public class Hero {
 	public Hero() {}
 	
 	public void attack() {
-		System.out.printf("%s가 기본 공격을 했다.(-150)\n", atk);
+		System.out.printf("%s가 기본 공격을 했다.(-150)\n", job);
 		System.out.println();
 		
 	}
@@ -69,7 +69,7 @@ public class Hero {
 	}
 
 	public void jump() {
-		System.out.printf("%s의 점프!\n", jumper);
+		System.out.printf("%s의 점프!\n", job);
 		System.out.println();
 		
 	}
@@ -82,10 +82,5 @@ public class Hero {
 		this.jumper = jumper;
 	}
 
-
-	
-	
-	
-	
 
 }
