@@ -32,16 +32,16 @@ public class AbstractionService {
 		System.out.println("p1의 pohne : " + p1.getPhone());
 		System.out.println("p1의 pNo : " + p1.getpNo());
 		System.out.println("p1의 address : " + p1.getAddress());
-		
+		System.out.println("=====================================");
 		
 		People p2 = new People();
 		
 		
 		p2.setName("김동현");
-		p2.setAge(37);
+		p2.setAge(35);
 		p2.setGender('남');
-		p2.setPhone("010-9974-****");
-		p2.setpNo("860424-1******");
+		p2.setPhone("010-9***-****");
+		p2.setpNo("8*****-1******");
 		p2.setAddress("서울시 서초구 양재동");
 		
 		System.out.println("p2의 name : " + p2.getName());
@@ -51,7 +51,6 @@ public class AbstractionService {
 		System.out.println("p2의 pNo : " + p2.getpNo());
 		System.out.println("p2의 address : " + p2.getAddress());
 		
-		System.out.println(p2);		
 	}
 
 }
