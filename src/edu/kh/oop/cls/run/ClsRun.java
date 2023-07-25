@@ -21,17 +21,9 @@ public class ClsRun {
 		
 		//cs.ex1();
 		
-		//cs.ex3();
+		cs.ex5();
 		
-		User u1 = new User();
 		
-		// User 객체 필드 초기화 확인
-		u1.setUserName("홍홍");
-		System.out.println(u1.getUserId());
-		System.out.println(u1.getUserPw());
-		System.out.println(u1.getUserName());
-		System.out.println(u1.getUserAge());
-		System.out.println(u1.getUserGender());
 	}
 
 }

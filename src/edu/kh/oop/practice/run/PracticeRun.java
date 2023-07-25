@@ -8,13 +8,13 @@ public class PracticeRun {
 	public static void main(String[] args) {
 		
 		
-		HeroService hs1 = new HeroService();
+		//HeroService hs1 = new HeroService();
 		
-		hs1.practice();
+		//hs1.practice();
 		
-		//BookService bs1 = new BookService();
+		BookService bs1 = new BookService();
 		
-		//bs1.practice();
+		bs1.practice();
 		
 	}
 
