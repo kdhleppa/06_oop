@@ -10,19 +10,18 @@ public class SnackController {
 	Scanner sc = new Scanner(System.in);
 	
 	Snack s = new Snack();
-	SnackMenu sm = new SnackMenu();
 	
 	public SnackController() {}
 	
-	public String saveData(String kind) {
-				this.setKind = kind;
-		s.setKind(inputKind);
-		s.setName(inputName);
-		s.setFlavor(inputFlavor);
-		s.setNumOf(inputNumOf);
-		s.setPrice(inputPrice);	
+	public String saveData(String kind, String name, String flavor, int numOf, int price) { 
 		
-		return "저장되었습니다";
+		this.s.setKind(kind);
+		this.s.setName(name);
+		this.s.setFlavor(flavor);
+		this.s.setNumOf(numOf);
+		this.s.setPrice(price);
+					
+		return "저장되었습니다\n";
 	}
 	
 	public String confirmData() {
