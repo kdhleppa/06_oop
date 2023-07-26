@@ -37,10 +37,7 @@ public class SnackMenu {
 			inputCase = 1;
 		} else if (ynn.equals("n")) {
 			inputCase = 2;
-		} else { 
-			System.out.print("다시 입력 하세요(y/n) : ");
-			ynn = sc.next();
-		}
+		} 
 		
 		switch(inputCase) {
 		case 1 :
